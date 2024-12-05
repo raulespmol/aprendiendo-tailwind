@@ -2,10 +2,10 @@ import { facebook, instagram, shieldTick, support, truckFast, twitter } from "..
 import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, shoe4, shoe5, shoe6, shoe7, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3 } from "../assets/images";
 
 export const navLinks = [
-    { href: "#home", label: "Home" },
-    { href: "#about-us", label: "About Us" },
-    { href: "#products", label: "Products" },
-    { href: "#contact-us", label: "Contact Us" },
+    { href: "#home", label: "Inicio" },
+    { href: "#about-us", label: "Acerca de" },
+    { href: "#products", label: "Productos" },
+    { href: "#contact-us", label: "Contacto" },
 ];
 
 export const shoes = [
@@ -33,62 +33,62 @@ export const products = [
     {
         imgURL: shoe4,
         name: "Nike Air Jordan-01",
-        price: "$200.20",
+        price: "$180.000",
     },
     {
         imgURL: shoe5,
         name: "Nike Air Jordan-10",
-        price: "$210.20",
+        price: "$190.000",
     },
     {
         imgURL: shoe6,
         name: "Nike Air Jordan-100",
-        price: "$220.20",
+        price: "$200.000",
     },
     {
         imgURL: shoe7,
         name: "Nike Air Jordan-001",
-        price: "$230.20",
+        price: "$210.000",
     },
 ];
 
 export const services = [
     {
         imgURL: truckFast,
-        label: "Free shipping",
-        subtext: "Enjoy seamless shopping with our complimentary shipping service."
+        label: "Envío gratis",
+        subtext: "Disfruta de una experiencia de compra sin complicaciones con nuestro servicio de envío gratuito."
     },
     {
         imgURL: shieldTick,
-        label: "Secure Payment",
-        subtext: "Experience worry-free transactions with our secure payment options."
+        label: "Pago Seguro",
+        subtext: "Disfruta de transacciones sin preocupaciones con nuestras opciones de pago seguras."
     },
     {
         imgURL: support,
-        label: "Love to help you",
-        subtext: "Our dedicated team is here to assist you every step of the way."
+        label: "Soporte",
+        subtext: "Nuestro equipo dedicado está aquí para ayudarte en cada paso del camino." 
     },
 ];
 
 export const reviews = [
     {
         imgURL: customer1,
-        customerName: 'Morich Brown',
+        customerName: 'Carlos Rodríguez', 
         rating: 4.5,
-        feedback: "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!"
+        feedback: "La atención al detalle y la calidad del producto superaron mis expectativas." 
     },
     {
         imgURL: customer2,
-        customerName: 'Lota Mongeskar',
+        customerName: 'María Fernández', 
         rating: 4.5,
-        feedback: "The product not only met but exceeded my expectations. I'll definitely be a returning customer!"
+        feedback: "El producto no solo cumplió, sino que superó mis expectativas. ¡Sin duda volveré a comprar!" 
     }
 ];
 
 
 export const footerLinks = [
     {
-        title: "Products",
+        title: "Productos",
         links: [
             { name: "Air Force 1", link: "/" },
             { name: "Air Max 1", link: "/" },
@@ -99,20 +99,19 @@ export const footerLinks = [
         ],
     },
     {
-        title: "Help",
+        title: "Ayuda",
         links: [
-            { name: "About us", link: "/" },
-            { name: "FAQs", link: "/" },
-            { name: "How it works", link: "/" },
-            { name: "Privacy policy", link: "/" },
-            { name: "Payment policy", link: "/" },
+            { name: "Acerca de", link: "/" },
+            { name: "Preguntas Frecuentes", link: "/" },
+            { name: "Política de Privacidad", link: "/" },
+            { name: "Política de Pagos", link: "/" },
         ],
     },
     {
-        title: "Get in touch",
+        title: "Contacto",
         links: [
-            { name: "customer@nike.com", link: "mailto:customer@nike.com" },
-            { name: "+92554862354", link: "tel:+92554862354" },
+            { name: "contacto@nike.com", link: "mailto:contacto@nike.com" },
+            { name: "+9876543210", link: "tel:+9876543210" },
         ],
     },
 ];
